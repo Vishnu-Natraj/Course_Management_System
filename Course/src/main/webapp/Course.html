@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KGiSL-GSS</title>
+    <script src="Course.js"></script>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            border: 1px solid #ddd;
+        }
+        
+        th,
+        td {
+            text-align: left;
+            padding: 8px;
+        }
+        
+        .footer {
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body b>
+
+    <button onclick="get_Course()">Get All the Course</button><br><br>
+    <table bgcolor="#cccccc">
+        <tr>
+            <th>Course_Id</th>
+            <th>Department_Name</th>
+            <th>Start_Date</th>
+            <th>End_Date</th>
+            <th>No_Of_Semester</th>
+            <th>Option_1</th>
+            <th>Option_2</th>
+        </tr>
+        <tbody id="courseset"></tbody>
+    </table><br>
+
+    <a href="AddCourse.html">
+        <button onclick="get_Course()">Add Me</button></a>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="footer">
+        <center>
+            <footer> &copy; KGiSL GSS 2021 </footer>
+        </center>
+    </div>
+
+</body>
+
+</html>

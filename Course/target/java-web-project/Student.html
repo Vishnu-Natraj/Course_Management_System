@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="Student.js"></script>
+    <style>
+        table {
+            border: 1px solid white;
+            width: 100%;
+            border: 1px solid #ddd;
+        }
+        
+        th,
+        td {
+            text-align: left;
+            padding: 8px;
+        }
+        
+        .footer {
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body background="Course.jpg">
+
+    <button onclick="get_Student()">Get All the Student</button><br><br>
+    <table bgcolor="#cccccc">
+        <tr>
+            <th>Student_Id</th>
+            <th>Student_name</th>
+            <th>Address_Id</th>
+            <th>Course_Id</th>
+            <th>Age</th>
+            <th>DOB</th>
+            <th>Fees</th>
+            <th>Gender</th>
+            <th>Phone_Number</th>
+            <th>Mark_1</th>
+            <th>Mark_2</th>
+            <th>Mark_3</th>
+            <th>Email</th>
+            <th>Attendance</th>
+            <th>GPA</th>
+            <th>Option1</th>
+            <th>Option2</th>
+
+        </tr>
+        <tbody id="studentset"></tbody>
+    </table><br>
+
+    <a href="AddStudent.html">
+        <button onclick="get_Student()">Add Me</button></a>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="footer">
+        <center>
+            <footer> &copy; KGiSL GSS 2021 </footer>
+        </center>
+    </div>
+</body>
+
+</html>
